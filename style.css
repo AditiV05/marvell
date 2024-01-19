@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 5%;
+  display: grid;
+  grid-gap: 2%;
+  grid-template-areas: "one two three four";
+  justify-content: center;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero {
+  padding: 20px 10px 20px 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);
+  margin: 10px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
